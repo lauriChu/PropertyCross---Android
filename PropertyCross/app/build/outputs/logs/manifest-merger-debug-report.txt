@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:2:1-23:12
+ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:3:5-52
 		INJECTED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml
@@ -14,16 +14,60 @@ ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app
 		INJECTED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:5:5-21:19
+ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:5:5-28:19
 MERGED from [com.android.support:design:25.3.1] /Users/FurruPi/.android/build-cache/b05be0453923e7c787e48080e90c4b7fae893672/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/FurruPi/.android/build-cache/c87c7b25981a967d5b134dafdea0816cc77aa306/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/FurruPi/.android/build-cache/e5082c5bcaa0e650903102419032a5a00bcb4937/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:transition:25.3.1] /Users/FurruPi/.android/build-cache/c28573d1175129f82772781ddadc834e8693b64e/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/FurruPi/.android/build-cache/224ebd981cf7d1b42eab0f2edcab44028e84515e/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/FurruPi/.android/build-cache/4d9f5069edbf9e45bc398893451ede117628aeaf/output/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services:10.2.1] /Users/FurruPi/.android/build-cache/503ae6833d3fe69f57b346c04184c7682b106464/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-analytics:10.2.1] /Users/FurruPi/.android/build-cache/c6cd92229bb1866bd68e6fb1e78e3dd0bdfaec99/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.1] /Users/FurruPi/.android/build-cache/066093ab3968f9d4d9b007f131a4293248adb6e4/output/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:10.2.1] /Users/FurruPi/.android/build-cache/7d13a1f9710a0f81227579077f8c7f2ee972dc80/output/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.1] /Users/FurruPi/.android/build-cache/5b8ca0dbb246fa4b8d27e3a4954379e98ad346fb/output/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:10.2.1] /Users/FurruPi/.android/build-cache/d8a5a62c0b70a35aaee8ec7d829cf64f7fa21b9f/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:10.2.1] /Users/FurruPi/.android/build-cache/528d3ac3dadc4ffa06b8c15d6106bdf142471253/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:10.2.1] /Users/FurruPi/.android/build-cache/1091f29c43f0f1a1f3a6a5b37a98c357bf8f591d/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-crash:10.2.1] /Users/FurruPi/.android/build-cache/4c5d95bb59cc161d5ddf01186bc1aa8b714ae125/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth:10.2.1] /Users/FurruPi/.android/build-cache/06ff5a0ee0df57df0507d7633db1b29a8192ffc9/output/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] /Users/FurruPi/.android/build-cache/3d3b99b7579eecdca2cd1cc4abd1c17c312bd1bb/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-fitness:10.2.1] /Users/FurruPi/.android/build-cache/e8eb1c5ebbf62e34d0489192aee0c12445ed5e3c/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:10.2.1] /Users/FurruPi/.android/build-cache/17bdc2c5da6411958278682d6bbb54a0cc464fd4/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:10.2.1] /Users/FurruPi/.android/build-cache/9305a355e04af9b465b2d990f4feb03470ff3aad/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] /Users/FurruPi/.android/build-cache/e13ca26584db564b4cedbaa792d2e322cf8a3152/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:10.2.1] /Users/FurruPi/.android/build-cache/a4c13975d983b5cbf9d36eb2bc25d64003c1835f/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] /Users/FurruPi/.android/build-cache/e69804fc6228422a493fcda5776c2dfbc5181405/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:10.2.1] /Users/FurruPi/.android/build-cache/aea6b4762cae987c984da1a2dc941ae608f98ff6/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-nearby:10.2.1] /Users/FurruPi/.android/build-cache/8aefffd0a19284e64e5edbb8b8a83e3ec05f378b/output/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:10.2.1] /Users/FurruPi/.android/build-cache/28e6c2b39b5b88587cf13885c12c361a2d0b4fda/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:10.2.1] /Users/FurruPi/.android/build-cache/b127241fd174aba151314c88e051631100c5a6ba/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:10.2.1] /Users/FurruPi/.android/build-cache/642ab241fc88facd71e72c33b98abede78062a0f/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.1] /Users/FurruPi/.android/build-cache/22c791c5232647cf3315a04884e399ea6f316b07/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /Users/FurruPi/.android/build-cache/4dae0acb2a834d4285f1393926c1baaa09209cd6/output/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /Users/FurruPi/.android/build-cache/761da4ea484f90577e570d3f7f86589cd20847f4/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /Users/FurruPi/.android/build-cache/83268308f8fc38dd6f34f4364822c0057b8d04fd/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:10.2.1] /Users/FurruPi/.android/build-cache/30a2f16c75ee00b4450075cce7f7c7982609f13b/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.1] /Users/FurruPi/.android/build-cache/0cdc7fafabcf7bd1a471353305cd173595416587/output/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.1] /Users/FurruPi/.android/build-cache/dd9bf448e8b40c8cef9d3977b825250e6e790b9b/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-vision:10.2.1] /Users/FurruPi/.android/build-cache/4b6795254950e12a9458b1bb7d9f69ef8686111a/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:10.2.1] /Users/FurruPi/.android/build-cache/d5f488f155787deff23c01545c2a785eb635b6ca/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-wearable:10.2.1] /Users/FurruPi/.android/build-cache/56efcd99c26c374034fbe0b7ac97bfcba78f139c/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] /Users/FurruPi/.android/build-cache/90f17f03da952883bb7ebc12ec899ff6b11f7c15/output/AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.1] /Users/FurruPi/.android/build-cache/adb8642ab42bb46ff576d5fa9a6f895d5480836e/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.2.1] /Users/FurruPi/.android/build-cache/04dc92211472d426dd9eff3572dec117cbcdf25f/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /Users/FurruPi/.android/build-cache/9e204b3ea198fffdb6583140f7f67e999cda1efc/output/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.1] /Users/FurruPi/.android/build-cache/fc348a6450ca07290e46e47ae01c06e903f76870/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /Users/FurruPi/.android/build-cache/77f986cd60026e28b2d2e0b850320c669c346430/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] /Users/FurruPi/.android/build-cache/7f18bbdf8ca460a38375180804c753d2cdbbfe6f/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:mediarouter-v7:25.3.1] /Users/FurruPi/.android/build-cache/38b7c7016e54cade5d12a7d2b18b754323a1aaef/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] /Users/FurruPi/.android/build-cache/49ab40028457a722f90cb88fab178c48af26b2fe/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/FurruPi/.android/build-cache/70067b973be9254fa8692be934632bb1c11cdffc/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/FurruPi/.android/build-cache/f9a7aac4e80889a31ce977166e84fad9cca9223b/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/FurruPi/.android/build-cache/ea14e635c0c438f0bd2a536ee2d7018195c60a46/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/FurruPi/.android/build-cache/c87c7b25981a967d5b134dafdea0816cc77aa306/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/FurruPi/.android/build-cache/e5082c5bcaa0e650903102419032a5a00bcb4937/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:palette-v7:25.3.1] /Users/FurruPi/.android/build-cache/ed31fcd984b5c6b16b4d989572c03f8270900b4d/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/FurruPi/.android/build-cache/b2bad33694b5409f252719f58130d62c65f0a9ea/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] /Users/FurruPi/.android/build-cache/d4a343692a4ff2d3794754fa221ac7b650dbb1bd/output/AndroidManifest.xml:29:5-20
 	android:label
@@ -38,12 +82,12 @@ MERGED from [com.android.support:support-compat:25.3.1] /Users/FurruPi/.android/
 		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:7:9-43
 	android:theme
 		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:11:9-40
-activity#com.lasalle.mdpa.lgarci.propertycross.MainActivity
+activity#com.lasalle.mdpa.lgarci.propertycross.activity.main.MainActivity
 ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:12:9-20:20
 	android:label
 		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:14:13-45
 	android:name
-		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:13:13-41
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:13:13-55
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
@@ -54,18 +98,75 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
 		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:18:27-74
+activity#com.lasalle.mdpa.lgarci.propertycross.activity.init.InitActivity
+ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:21:9-27:20
+	android:name
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:21:19-61
 uses-sdk
 INJECTED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.1] /Users/FurruPi/.android/build-cache/b05be0453923e7c787e48080e90c4b7fae893672/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/FurruPi/.android/build-cache/c87c7b25981a967d5b134dafdea0816cc77aa306/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/FurruPi/.android/build-cache/e5082c5bcaa0e650903102419032a5a00bcb4937/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/FurruPi/.android/build-cache/096de67dd283a9e896f2c71a77693afe47286198/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.3.1] /Users/FurruPi/.android/build-cache/c28573d1175129f82772781ddadc834e8693b64e/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/FurruPi/.android/build-cache/224ebd981cf7d1b42eab0f2edcab44028e84515e/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/FurruPi/.android/build-cache/4d9f5069edbf9e45bc398893451ede117628aeaf/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/FurruPi/.android/build-cache/096de67dd283a9e896f2c71a77693afe47286198/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services:10.2.1] /Users/FurruPi/.android/build-cache/503ae6833d3fe69f57b346c04184c7682b106464/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-analytics:10.2.1] /Users/FurruPi/.android/build-cache/c6cd92229bb1866bd68e6fb1e78e3dd0bdfaec99/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.1] /Users/FurruPi/.android/build-cache/066093ab3968f9d4d9b007f131a4293248adb6e4/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:10.2.1] /Users/FurruPi/.android/build-cache/7d13a1f9710a0f81227579077f8c7f2ee972dc80/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.1] /Users/FurruPi/.android/build-cache/739cb5013fa191f59a2587a7ec122e6ee0031984/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.1] /Users/FurruPi/.android/build-cache/5b8ca0dbb246fa4b8d27e3a4954379e98ad346fb/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:10.2.1] /Users/FurruPi/.android/build-cache/d8a5a62c0b70a35aaee8ec7d829cf64f7fa21b9f/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:10.2.1] /Users/FurruPi/.android/build-cache/528d3ac3dadc4ffa06b8c15d6106bdf142471253/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:10.2.1] /Users/FurruPi/.android/build-cache/1091f29c43f0f1a1f3a6a5b37a98c357bf8f591d/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:10.2.1] /Users/FurruPi/.android/build-cache/4c5d95bb59cc161d5ddf01186bc1aa8b714ae125/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-auth:10.2.1] /Users/FurruPi/.android/build-cache/06ff5a0ee0df57df0507d7633db1b29a8192ffc9/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:10.2.1] /Users/FurruPi/.android/build-cache/1140d11b41471df15fd96395a7c5c2e8bb8dd016/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:10.2.1] /Users/FurruPi/.android/build-cache/e13b2284082f8da0b4d8842d7fe53915676b5a66/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] /Users/FurruPi/.android/build-cache/3d3b99b7579eecdca2cd1cc4abd1c17c312bd1bb/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:10.2.1] /Users/FurruPi/.android/build-cache/df53930a4a51cf013be8286c5cf04a0d21ef2c9b/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:10.2.1] /Users/FurruPi/.android/build-cache/a0e019966147b1dbb40fd5906bb1719961c88fb6/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-fitness:10.2.1] /Users/FurruPi/.android/build-cache/e8eb1c5ebbf62e34d0489192aee0c12445ed5e3c/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:10.2.1] /Users/FurruPi/.android/build-cache/17bdc2c5da6411958278682d6bbb54a0cc464fd4/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:10.2.1] /Users/FurruPi/.android/build-cache/9305a355e04af9b465b2d990f4feb03470ff3aad/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] /Users/FurruPi/.android/build-cache/e13ca26584db564b4cedbaa792d2e322cf8a3152/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:10.2.1] /Users/FurruPi/.android/build-cache/a4c13975d983b5cbf9d36eb2bc25d64003c1835f/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] /Users/FurruPi/.android/build-cache/e69804fc6228422a493fcda5776c2dfbc5181405/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:10.2.1] /Users/FurruPi/.android/build-cache/553b0ea06d2a1e91bacdd1a65517de5bcd83dbf3/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:10.2.1] /Users/FurruPi/.android/build-cache/aea6b4762cae987c984da1a2dc941ae608f98ff6/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:10.2.1] /Users/FurruPi/.android/build-cache/8aefffd0a19284e64e5edbb8b8a83e3ec05f378b/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:10.2.1] /Users/FurruPi/.android/build-cache/28e6c2b39b5b88587cf13885c12c361a2d0b4fda/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:10.2.1] /Users/FurruPi/.android/build-cache/b127241fd174aba151314c88e051631100c5a6ba/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:10.2.1] /Users/FurruPi/.android/build-cache/642ab241fc88facd71e72c33b98abede78062a0f/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.1] /Users/FurruPi/.android/build-cache/22c791c5232647cf3315a04884e399ea6f316b07/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:10.2.1] /Users/FurruPi/.android/build-cache/eb2c01f1c4d920cd8b46c766efbaf4578d4bd565/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /Users/FurruPi/.android/build-cache/4dae0acb2a834d4285f1393926c1baaa09209cd6/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /Users/FurruPi/.android/build-cache/761da4ea484f90577e570d3f7f86589cd20847f4/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /Users/FurruPi/.android/build-cache/83268308f8fc38dd6f34f4364822c0057b8d04fd/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.1] /Users/FurruPi/.android/build-cache/30a2f16c75ee00b4450075cce7f7c7982609f13b/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.1] /Users/FurruPi/.android/build-cache/0cdc7fafabcf7bd1a471353305cd173595416587/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.1] /Users/FurruPi/.android/build-cache/dd9bf448e8b40c8cef9d3977b825250e6e790b9b/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:10.2.1] /Users/FurruPi/.android/build-cache/4b6795254950e12a9458b1bb7d9f69ef8686111a/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wallet:10.2.1] /Users/FurruPi/.android/build-cache/db07fec07047c0c3e1250a8b53fc4820b99a1abd/output/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-identity:10.2.1] /Users/FurruPi/.android/build-cache/d5f488f155787deff23c01545c2a785eb635b6ca/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wearable:10.2.1] /Users/FurruPi/.android/build-cache/56efcd99c26c374034fbe0b7ac97bfcba78f139c/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads:10.2.1] /Users/FurruPi/.android/build-cache/da7001a0d309bc4c3a9dcdbd1219c86680a9e9fc/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] /Users/FurruPi/.android/build-cache/90f17f03da952883bb7ebc12ec899ff6b11f7c15/output/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.1] /Users/FurruPi/.android/build-cache/adb8642ab42bb46ff576d5fa9a6f895d5480836e/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:10.2.1] /Users/FurruPi/.android/build-cache/04dc92211472d426dd9eff3572dec117cbcdf25f/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /Users/FurruPi/.android/build-cache/9e204b3ea198fffdb6583140f7f67e999cda1efc/output/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.1] /Users/FurruPi/.android/build-cache/fc348a6450ca07290e46e47ae01c06e903f76870/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /Users/FurruPi/.android/build-cache/77f986cd60026e28b2d2e0b850320c669c346430/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] /Users/FurruPi/.android/build-cache/7f18bbdf8ca460a38375180804c753d2cdbbfe6f/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:mediarouter-v7:25.3.1] /Users/FurruPi/.android/build-cache/38b7c7016e54cade5d12a7d2b18b754323a1aaef/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:support-v4:25.3.1] /Users/FurruPi/.android/build-cache/49ab40028457a722f90cb88fab178c48af26b2fe/output/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/FurruPi/.android/build-cache/70067b973be9254fa8692be934632bb1c11cdffc/output/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/FurruPi/.android/build-cache/f9a7aac4e80889a31ce977166e84fad9cca9223b/output/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/FurruPi/.android/build-cache/ea14e635c0c438f0bd2a536ee2d7018195c60a46/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/FurruPi/.android/build-cache/c87c7b25981a967d5b134dafdea0816cc77aa306/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/FurruPi/.android/build-cache/e5082c5bcaa0e650903102419032a5a00bcb4937/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:25.3.1] /Users/FurruPi/.android/build-cache/ed31fcd984b5c6b16b4d989572c03f8270900b4d/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/FurruPi/.android/build-cache/b2bad33694b5409f252719f58130d62c65f0a9ea/output/AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:25.3.1] /Users/FurruPi/.android/build-cache/d4a343692a4ff2d3794754fa221ac7b650dbb1bd/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
@@ -78,18 +179,276 @@ MERGED from [com.android.support:support-compat:25.3.1] /Users/FurruPi/.android/
 		INJECTED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] /Users/FurruPi/.android/build-cache/b05be0453923e7c787e48080e90c4b7fae893672/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/FurruPi/.android/build-cache/c87c7b25981a967d5b134dafdea0816cc77aa306/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/FurruPi/.android/build-cache/e5082c5bcaa0e650903102419032a5a00bcb4937/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/FurruPi/.android/build-cache/096de67dd283a9e896f2c71a77693afe47286198/output/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:transition:25.3.1] /Users/FurruPi/.android/build-cache/c28573d1175129f82772781ddadc834e8693b64e/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/FurruPi/.android/build-cache/4d9f5069edbf9e45bc398893451ede117628aeaf/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/FurruPi/.android/build-cache/096de67dd283a9e896f2c71a77693afe47286198/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:mediarouter-v7:25.3.1] /Users/FurruPi/.android/build-cache/38b7c7016e54cade5d12a7d2b18b754323a1aaef/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-v4:25.3.1] /Users/FurruPi/.android/build-cache/49ab40028457a722f90cb88fab178c48af26b2fe/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/FurruPi/.android/build-cache/70067b973be9254fa8692be934632bb1c11cdffc/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/FurruPi/.android/build-cache/f9a7aac4e80889a31ce977166e84fad9cca9223b/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/FurruPi/.android/build-cache/ea14e635c0c438f0bd2a536ee2d7018195c60a46/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/FurruPi/.android/build-cache/c87c7b25981a967d5b134dafdea0816cc77aa306/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/FurruPi/.android/build-cache/e5082c5bcaa0e650903102419032a5a00bcb4937/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:palette-v7:25.3.1] /Users/FurruPi/.android/build-cache/ed31fcd984b5c6b16b4d989572c03f8270900b4d/output/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/FurruPi/.android/build-cache/b2bad33694b5409f252719f58130d62c65f0a9ea/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-compat:25.3.1] /Users/FurruPi/.android/build-cache/d4a343692a4ff2d3794754fa221ac7b650dbb1bd/output/AndroidManifest.xml:25:5-27:34
 	android:value
 		ADDED from [com.android.support:design:25.3.1] /Users/FurruPi/.android/build-cache/b05be0453923e7c787e48080e90c4b7fae893672/output/AndroidManifest.xml:27:9-31
 	android:name
 		ADDED from [com.android.support:design:25.3.1] /Users/FurruPi/.android/build-cache/b05be0453923e7c787e48080e90c4b7fae893672/output/AndroidManifest.xml:26:9-47
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-analytics:10.2.1] /Users/FurruPi/.android/build-cache/c6cd92229bb1866bd68e6fb1e78e3dd0bdfaec99/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.1] /Users/FurruPi/.android/build-cache/066093ab3968f9d4d9b007f131a4293248adb6e4/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:10.2.1] /Users/FurruPi/.android/build-cache/4c5d95bb59cc161d5ddf01186bc1aa8b714ae125/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] /Users/FurruPi/.android/build-cache/e13ca26584db564b4cedbaa792d2e322cf8a3152/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] /Users/FurruPi/.android/build-cache/e69804fc6228422a493fcda5776c2dfbc5181405/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /Users/FurruPi/.android/build-cache/4dae0acb2a834d4285f1393926c1baaa09209cd6/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /Users/FurruPi/.android/build-cache/761da4ea484f90577e570d3f7f86589cd20847f4/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /Users/FurruPi/.android/build-cache/83268308f8fc38dd6f34f4364822c0057b8d04fd/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.1] /Users/FurruPi/.android/build-cache/dd9bf448e8b40c8cef9d3977b825250e6e790b9b/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] /Users/FurruPi/.android/build-cache/90f17f03da952883bb7ebc12ec899ff6b11f7c15/output/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /Users/FurruPi/.android/build-cache/9e204b3ea198fffdb6583140f7f67e999cda1efc/output/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:10.2.1] /Users/FurruPi/.android/build-cache/c6cd92229bb1866bd68e6fb1e78e3dd0bdfaec99/output/AndroidManifest.xml:20:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-analytics:10.2.1] /Users/FurruPi/.android/build-cache/c6cd92229bb1866bd68e6fb1e78e3dd0bdfaec99/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:10.2.1] /Users/FurruPi/.android/build-cache/8aefffd0a19284e64e5edbb8b8a83e3ec05f378b/output/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /Users/FurruPi/.android/build-cache/4dae0acb2a834d4285f1393926c1baaa09209cd6/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /Users/FurruPi/.android/build-cache/761da4ea484f90577e570d3f7f86589cd20847f4/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /Users/FurruPi/.android/build-cache/83268308f8fc38dd6f34f4364822c0057b8d04fd/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.1] /Users/FurruPi/.android/build-cache/dd9bf448e8b40c8cef9d3977b825250e6e790b9b/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] /Users/FurruPi/.android/build-cache/90f17f03da952883bb7ebc12ec899ff6b11f7c15/output/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /Users/FurruPi/.android/build-cache/9e204b3ea198fffdb6583140f7f67e999cda1efc/output/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:10.2.1] /Users/FurruPi/.android/build-cache/c6cd92229bb1866bd68e6fb1e78e3dd0bdfaec99/output/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:10.2.1] /Users/FurruPi/.android/build-cache/c6cd92229bb1866bd68e6fb1e78e3dd0bdfaec99/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /Users/FurruPi/.android/build-cache/761da4ea484f90577e570d3f7f86589cd20847f4/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /Users/FurruPi/.android/build-cache/83268308f8fc38dd6f34f4364822c0057b8d04fd/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.1] /Users/FurruPi/.android/build-cache/dd9bf448e8b40c8cef9d3977b825250e6e790b9b/output/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:10.2.1] /Users/FurruPi/.android/build-cache/c6cd92229bb1866bd68e6fb1e78e3dd0bdfaec99/output/AndroidManifest.xml:24:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] /Users/FurruPi/.android/build-cache/066093ab3968f9d4d9b007f131a4293248adb6e4/output/AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] /Users/FurruPi/.android/build-cache/066093ab3968f9d4d9b007f131a4293248adb6e4/output/AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] /Users/FurruPi/.android/build-cache/066093ab3968f9d4d9b007f131a4293248adb6e4/output/AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] /Users/FurruPi/.android/build-cache/066093ab3968f9d4d9b007f131a4293248adb6e4/output/AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] /Users/FurruPi/.android/build-cache/066093ab3968f9d4d9b007f131a4293248adb6e4/output/AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] /Users/FurruPi/.android/build-cache/066093ab3968f9d4d9b007f131a4293248adb6e4/output/AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] /Users/FurruPi/.android/build-cache/066093ab3968f9d4d9b007f131a4293248adb6e4/output/AndroidManifest.xml:22:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] /Users/FurruPi/.android/build-cache/066093ab3968f9d4d9b007f131a4293248adb6e4/output/AndroidManifest.xml:23:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] /Users/FurruPi/.android/build-cache/066093ab3968f9d4d9b007f131a4293248adb6e4/output/AndroidManifest.xml:23:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:10.2.1] /Users/FurruPi/.android/build-cache/7d13a1f9710a0f81227579077f8c7f2ee972dc80/output/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] /Users/FurruPi/.android/build-cache/7d13a1f9710a0f81227579077f8c7f2ee972dc80/output/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] /Users/FurruPi/.android/build-cache/7d13a1f9710a0f81227579077f8c7f2ee972dc80/output/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] /Users/FurruPi/.android/build-cache/7d13a1f9710a0f81227579077f8c7f2ee972dc80/output/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] /Users/FurruPi/.android/build-cache/7d13a1f9710a0f81227579077f8c7f2ee972dc80/output/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:10.2.1] /Users/FurruPi/.android/build-cache/7d13a1f9710a0f81227579077f8c7f2ee972dc80/output/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] /Users/FurruPi/.android/build-cache/7d13a1f9710a0f81227579077f8c7f2ee972dc80/output/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] /Users/FurruPi/.android/build-cache/7d13a1f9710a0f81227579077f8c7f2ee972dc80/output/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] /Users/FurruPi/.android/build-cache/7d13a1f9710a0f81227579077f8c7f2ee972dc80/output/AndroidManifest.xml:24:18-63
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.1] /Users/FurruPi/.android/build-cache/5b8ca0dbb246fa4b8d27e3a4954379e98ad346fb/output/AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.1] /Users/FurruPi/.android/build-cache/5b8ca0dbb246fa4b8d27e3a4954379e98ad346fb/output/AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.1] /Users/FurruPi/.android/build-cache/5b8ca0dbb246fa4b8d27e3a4954379e98ad346fb/output/AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.1] /Users/FurruPi/.android/build-cache/5b8ca0dbb246fa4b8d27e3a4954379e98ad346fb/output/AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.1] /Users/FurruPi/.android/build-cache/5b8ca0dbb246fa4b8d27e3a4954379e98ad346fb/output/AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.1] /Users/FurruPi/.android/build-cache/5b8ca0dbb246fa4b8d27e3a4954379e98ad346fb/output/AndroidManifest.xml:7:18-90
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.2.1] /Users/FurruPi/.android/build-cache/3d3b99b7579eecdca2cd1cc4abd1c17c312bd1bb/output/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] /Users/FurruPi/.android/build-cache/3d3b99b7579eecdca2cd1cc4abd1c17c312bd1bb/output/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] /Users/FurruPi/.android/build-cache/3d3b99b7579eecdca2cd1cc4abd1c17c312bd1bb/output/AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.2.1] /Users/FurruPi/.android/build-cache/3d3b99b7579eecdca2cd1cc4abd1c17c312bd1bb/output/AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] /Users/FurruPi/.android/build-cache/3d3b99b7579eecdca2cd1cc4abd1c17c312bd1bb/output/AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.2.1] /Users/FurruPi/.android/build-cache/3d3b99b7579eecdca2cd1cc4abd1c17c312bd1bb/output/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] /Users/FurruPi/.android/build-cache/3d3b99b7579eecdca2cd1cc4abd1c17c312bd1bb/output/AndroidManifest.xml:25:25-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:10.2.1] /Users/FurruPi/.android/build-cache/e13ca26584db564b4cedbaa792d2e322cf8a3152/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] /Users/FurruPi/.android/build-cache/e69804fc6228422a493fcda5776c2dfbc5181405/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:10.2.1] /Users/FurruPi/.android/build-cache/e13ca26584db564b4cedbaa792d2e322cf8a3152/output/AndroidManifest.xml:20:22-79
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /Users/FurruPi/.android/build-cache/4dae0acb2a834d4285f1393926c1baaa09209cd6/output/AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /Users/FurruPi/.android/build-cache/4dae0acb2a834d4285f1393926c1baaa09209cd6/output/AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /Users/FurruPi/.android/build-cache/4dae0acb2a834d4285f1393926c1baaa09209cd6/output/AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /Users/FurruPi/.android/build-cache/4dae0acb2a834d4285f1393926c1baaa09209cd6/output/AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /Users/FurruPi/.android/build-cache/4dae0acb2a834d4285f1393926c1baaa09209cd6/output/AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /Users/FurruPi/.android/build-cache/4dae0acb2a834d4285f1393926c1baaa09209cd6/output/AndroidManifest.xml:25:94-118
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /Users/FurruPi/.android/build-cache/4dae0acb2a834d4285f1393926c1baaa09209cd6/output/AndroidManifest.xml:25:19-93
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /Users/FurruPi/.android/build-cache/4dae0acb2a834d4285f1393926c1baaa09209cd6/output/AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /Users/FurruPi/.android/build-cache/4dae0acb2a834d4285f1393926c1baaa09209cd6/output/AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /Users/FurruPi/.android/build-cache/4dae0acb2a834d4285f1393926c1baaa09209cd6/output/AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /Users/FurruPi/.android/build-cache/4dae0acb2a834d4285f1393926c1baaa09209cd6/output/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /Users/FurruPi/.android/build-cache/4dae0acb2a834d4285f1393926c1baaa09209cd6/output/AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /Users/FurruPi/.android/build-cache/4dae0acb2a834d4285f1393926c1baaa09209cd6/output/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /Users/FurruPi/.android/build-cache/4dae0acb2a834d4285f1393926c1baaa09209cd6/output/AndroidManifest.xml:30:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/FurruPi/.android/build-cache/761da4ea484f90577e570d3f7f86589cd20847f4/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /Users/FurruPi/.android/build-cache/83268308f8fc38dd6f34f4364822c0057b8d04fd/output/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/FurruPi/.android/build-cache/761da4ea484f90577e570d3f7f86589cd20847f4/output/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/FurruPi/.android/build-cache/761da4ea484f90577e570d3f7f86589cd20847f4/output/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/FurruPi/.android/build-cache/761da4ea484f90577e570d3f7f86589cd20847f4/output/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/FurruPi/.android/build-cache/761da4ea484f90577e570d3f7f86589cd20847f4/output/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/FurruPi/.android/build-cache/761da4ea484f90577e570d3f7f86589cd20847f4/output/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/FurruPi/.android/build-cache/761da4ea484f90577e570d3f7f86589cd20847f4/output/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/FurruPi/.android/build-cache/761da4ea484f90577e570d3f7f86589cd20847f4/output/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/FurruPi/.android/build-cache/761da4ea484f90577e570d3f7f86589cd20847f4/output/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/FurruPi/.android/build-cache/761da4ea484f90577e570d3f7f86589cd20847f4/output/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/FurruPi/.android/build-cache/761da4ea484f90577e570d3f7f86589cd20847f4/output/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/FurruPi/.android/build-cache/761da4ea484f90577e570d3f7f86589cd20847f4/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /Users/FurruPi/.android/build-cache/83268308f8fc38dd6f34f4364822c0057b8d04fd/output/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/FurruPi/.android/build-cache/761da4ea484f90577e570d3f7f86589cd20847f4/output/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/FurruPi/.android/build-cache/761da4ea484f90577e570d3f7f86589cd20847f4/output/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/FurruPi/.android/build-cache/761da4ea484f90577e570d3f7f86589cd20847f4/output/AndroidManifest.xml:32:16-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/FurruPi/.android/build-cache/79d0f1784274482da26479522cc7d7db058b57c3/output/AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.2.1] /Users/FurruPi/.android/build-cache/30a2f16c75ee00b4450075cce7f7c7982609f13b/output/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.2.1] /Users/FurruPi/.android/build-cache/30a2f16c75ee00b4450075cce7f7c7982609f13b/output/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.2.1] /Users/FurruPi/.android/build-cache/30a2f16c75ee00b4450075cce7f7c7982609f13b/output/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.2.1] /Users/FurruPi/.android/build-cache/30a2f16c75ee00b4450075cce7f7c7982609f13b/output/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.2.1] /Users/FurruPi/.android/build-cache/30a2f16c75ee00b4450075cce7f7c7982609f13b/output/AndroidManifest.xml:6:79-143
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] /Users/FurruPi/.android/build-cache/90f17f03da952883bb7ebc12ec899ff6b11f7c15/output/AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] /Users/FurruPi/.android/build-cache/90f17f03da952883bb7ebc12ec899ff6b11f7c15/output/AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] /Users/FurruPi/.android/build-cache/90f17f03da952883bb7ebc12ec899ff6b11f7c15/output/AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] /Users/FurruPi/.android/build-cache/90f17f03da952883bb7ebc12ec899ff6b11f7c15/output/AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] /Users/FurruPi/.android/build-cache/90f17f03da952883bb7ebc12ec899ff6b11f7c15/output/AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] /Users/FurruPi/.android/build-cache/90f17f03da952883bb7ebc12ec899ff6b11f7c15/output/AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] /Users/FurruPi/.android/build-cache/90f17f03da952883bb7ebc12ec899ff6b11f7c15/output/AndroidManifest.xml:26:19-91
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.2.1] /Users/FurruPi/.android/build-cache/9e204b3ea198fffdb6583140f7f67e999cda1efc/output/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.2.1] /Users/FurruPi/.android/build-cache/9e204b3ea198fffdb6583140f7f67e999cda1efc/output/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.2.1] /Users/FurruPi/.android/build-cache/9e204b3ea198fffdb6583140f7f67e999cda1efc/output/AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.1] /Users/FurruPi/.android/build-cache/fc348a6450ca07290e46e47ae01c06e903f76870/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] /Users/FurruPi/.android/build-cache/fc348a6450ca07290e46e47ae01c06e903f76870/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] /Users/FurruPi/.android/build-cache/fc348a6450ca07290e46e47ae01c06e903f76870/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] /Users/FurruPi/.android/build-cache/fc348a6450ca07290e46e47ae01c06e903f76870/output/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.1] /Users/FurruPi/.android/build-cache/7f18bbdf8ca460a38375180804c753d2cdbbfe6f/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] /Users/FurruPi/.android/build-cache/7f18bbdf8ca460a38375180804c753d2cdbbfe6f/output/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] /Users/FurruPi/.android/build-cache/7f18bbdf8ca460a38375180804c753d2cdbbfe6f/output/AndroidManifest.xml:20:20-65
