@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_round.png",
+        "source": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]

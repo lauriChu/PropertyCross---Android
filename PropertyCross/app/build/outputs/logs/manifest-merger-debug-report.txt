@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:3:5-52
+		INJECTED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:5:5-21:19
+MERGED from [com.android.support:design:25.3.1] /Users/FurruPi/.android/build-cache/b05be0453923e7c787e48080e90c4b7fae893672/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/FurruPi/.android/build-cache/c87c7b25981a967d5b134dafdea0816cc77aa306/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/FurruPi/.android/build-cache/e5082c5bcaa0e650903102419032a5a00bcb4937/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/FurruPi/.android/build-cache/c28573d1175129f82772781ddadc834e8693b64e/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/FurruPi/.android/build-cache/49ab40028457a722f90cb88fab178c48af26b2fe/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/FurruPi/.android/build-cache/70067b973be9254fa8692be934632bb1c11cdffc/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/FurruPi/.android/build-cache/f9a7aac4e80889a31ce977166e84fad9cca9223b/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/FurruPi/.android/build-cache/ea14e635c0c438f0bd2a536ee2d7018195c60a46/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/FurruPi/.android/build-cache/b2bad33694b5409f252719f58130d62c65f0a9ea/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/FurruPi/.android/build-cache/d4a343692a4ff2d3794754fa221ac7b650dbb1bd/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.lasalle.mdpa.lgarci.propertycross.MainActivity
+ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:12:9-20:20
+	android:label
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:14:13-45
+	android:name
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:13:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] /Users/FurruPi/.android/build-cache/b05be0453923e7c787e48080e90c4b7fae893672/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/FurruPi/.android/build-cache/c87c7b25981a967d5b134dafdea0816cc77aa306/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/FurruPi/.android/build-cache/e5082c5bcaa0e650903102419032a5a00bcb4937/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/FurruPi/.android/build-cache/096de67dd283a9e896f2c71a77693afe47286198/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] /Users/FurruPi/.android/build-cache/c28573d1175129f82772781ddadc834e8693b64e/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] /Users/FurruPi/.android/build-cache/49ab40028457a722f90cb88fab178c48af26b2fe/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/FurruPi/.android/build-cache/70067b973be9254fa8692be934632bb1c11cdffc/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/FurruPi/.android/build-cache/f9a7aac4e80889a31ce977166e84fad9cca9223b/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/FurruPi/.android/build-cache/ea14e635c0c438f0bd2a536ee2d7018195c60a46/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/FurruPi/.android/build-cache/b2bad33694b5409f252719f58130d62c65f0a9ea/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /Users/FurruPi/.android/build-cache/d4a343692a4ff2d3794754fa221ac7b650dbb1bd/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /Users/FurruPi/.android/build-cache/b05be0453923e7c787e48080e90c4b7fae893672/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /Users/FurruPi/.android/build-cache/b05be0453923e7c787e48080e90c4b7fae893672/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/FurruPi/.android/build-cache/c87c7b25981a967d5b134dafdea0816cc77aa306/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/FurruPi/.android/build-cache/e5082c5bcaa0e650903102419032a5a00bcb4937/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/FurruPi/.android/build-cache/096de67dd283a9e896f2c71a77693afe47286198/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /Users/FurruPi/.android/build-cache/c28573d1175129f82772781ddadc834e8693b64e/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/FurruPi/.android/build-cache/49ab40028457a722f90cb88fab178c48af26b2fe/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/FurruPi/.android/build-cache/70067b973be9254fa8692be934632bb1c11cdffc/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/FurruPi/.android/build-cache/f9a7aac4e80889a31ce977166e84fad9cca9223b/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/FurruPi/.android/build-cache/ea14e635c0c438f0bd2a536ee2d7018195c60a46/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/FurruPi/.android/build-cache/b2bad33694b5409f252719f58130d62c65f0a9ea/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/FurruPi/.android/build-cache/d4a343692a4ff2d3794754fa221ac7b650dbb1bd/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /Users/FurruPi/.android/build-cache/b05be0453923e7c787e48080e90c4b7fae893672/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /Users/FurruPi/.android/build-cache/b05be0453923e7c787e48080e90c4b7fae893672/output/AndroidManifest.xml:26:9-47

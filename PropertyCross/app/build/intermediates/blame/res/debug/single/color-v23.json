@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/FurruPi/.android/build-cache/b05be0453923e7c787e48080e90c4b7fae893672/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/res/color-v23/abc_color_highlight_material.xml"
+    }
+]
