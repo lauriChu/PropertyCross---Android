@@ -12,20 +12,23 @@ import com.lasalle.mdpa.lgarci.propertycross.R;
 public class InitActivity extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener{
 
+    private InitActivityManager initActivityManager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_init);
+        initActivityManager = new InitActivityManager(this);
     }
 
     @Override
     public void onConnected(@Nullable Bundle bundle) {
-
+        initActivityManager.onGoogleConnected();
     }
 
     @Override
     public void onConnectionSuspended(int i) {
-
+        initActivityManager.doGoogleConnect();
     }
 
     @Override
@@ -35,13 +38,13 @@ public class InitActivity extends AppCompatActivity implements GoogleApiClient.C
 
     @Override
     protected void onStart() {
-        //initActivityManager.doGoogleConnect();
+        initActivityManager.doGoogleConnect();
         super.onStart();
     }
 
     @Override
     protected void onStop() {
-        //initActivityManager.doGoogleDisconnect();
+        initActivityManager.doGoogleDisconnect();
         super.onStop();
     }
 }
