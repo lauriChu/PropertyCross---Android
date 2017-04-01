@@ -76,8 +76,16 @@
         "source": "/Users/FurruPi/.android/build-cache/b127241fd174aba151314c88e051631100c5a6ba/output/res/layout/place_autocomplete_item_prediction.xml"
     },
     {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/layout/fragment_search.xml",
+        "source": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/res/layout/fragment_search.xml"
+    },
+    {
         "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
         "source": "/Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/layout/fragment_user.xml",
+        "source": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/res/layout/fragment_user.xml"
     },
     {
         "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
@@ -102,6 +110,10 @@
     {
         "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/layout/cast_tracks_chooser_dialog_layout.xml",
         "source": "/Users/FurruPi/.android/build-cache/5b8ca0dbb246fa4b8d27e3a4954379e98ad346fb/output/res/layout/cast_tracks_chooser_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/layout/activity_search.xml",
+        "source": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/res/layout/activity_search.xml"
     },
     {
         "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
@@ -184,6 +196,10 @@
         "source": "/Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/res/layout/select_dialog_item_material.xml"
     },
     {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/layout/toolbar_activity_search.xml",
+        "source": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/res/layout/toolbar_activity_search.xml"
+    },
+    {
         "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
         "source": "/Users/FurruPi/.android/build-cache/b05be0453923e7c787e48080e90c4b7fae893672/output/res/layout/design_navigation_menu.xml"
     },
@@ -202,6 +218,10 @@
     {
         "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
         "source": "/Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/layout/toolbar_fragment_search.xml",
+        "source": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/res/layout/toolbar_fragment_search.xml"
     },
     {
         "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
@@ -244,6 +264,10 @@
         "source": "/Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/layout/fragment_favourite.xml",
+        "source": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/res/layout/fragment_favourite.xml"
+    },
+    {
         "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/res/layout/abc_list_menu_item_layout.xml"
     },
@@ -266,5 +290,9 @@
     {
         "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/layout/fragment_map.xml",
+        "source": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/res/layout/fragment_map.xml"
     }
 ]

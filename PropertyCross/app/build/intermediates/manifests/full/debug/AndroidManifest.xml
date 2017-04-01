@@ -8,6 +8,9 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="25" />
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <meta-data
         android:name="android.support.VERSION"
         android:value="25.3.1" /> <!-- Include required permissions for Analytics to run. -->
@@ -33,15 +36,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name="com.lasalle.mdpa.lgarci.propertycross.activity.main.MainActivity"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity android:name="com.lasalle.mdpa.lgarci.propertycross.activity.init.InitActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -49,6 +43,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.lasalle.mdpa.lgarci.propertycross.activity.main.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <actiRon android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.lasalle.mdpa.lgarci.propertycross.activity.search.SearchActivity" />
         <activity
             android:name="com.google.android.gms.appinvite.PreviewActivity"
             android:exported="true"

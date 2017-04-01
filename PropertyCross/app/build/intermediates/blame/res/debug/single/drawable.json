@@ -12,12 +12,12 @@
         "source": "/Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/drawable/mr_media_stop_dark.xml",
-        "source": "/Users/FurruPi/.android/build-cache/38b7c7016e54cade5d12a7d2b18b754323a1aaef/output/res/drawable/mr_media_stop_dark.xml"
-    },
-    {
         "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
         "source": "/Users/FurruPi/.android/build-cache/fc348a6450ca07290e46e47ae01c06e903f76870/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/drawable/mr_media_stop_dark.xml",
+        "source": "/Users/FurruPi/.android/build-cache/38b7c7016e54cade5d12a7d2b18b754323a1aaef/output/res/drawable/mr_media_stop_dark.xml"
     },
     {
         "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/drawable/mr_button_connecting_dark.xml",
@@ -40,12 +40,12 @@
         "source": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/res/drawable/ic_notifications_black_24dp.xml"
     },
     {
-        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/res/drawable/abc_dialog_material_background.xml"
-    },
-    {
         "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
         "source": "/Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/res/drawable/abc_dialog_material_background.xml"
     },
     {
         "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/drawable/cast_skip_ad_label_border.xml",

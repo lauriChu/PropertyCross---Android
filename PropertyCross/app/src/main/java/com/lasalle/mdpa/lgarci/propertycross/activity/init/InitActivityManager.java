@@ -1,6 +1,7 @@
 package com.lasalle.mdpa.lgarci.propertycross.activity.init;
 
 import android.Manifest;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.support.design.widget.TextInputEditText;
@@ -12,7 +13,13 @@ import android.widget.ImageButton;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationServices;
 import com.lasalle.mdpa.lgarci.propertycross.R;
+import com.lasalle.mdpa.lgarci.propertycross.activity.main.MainActivity;
 import com.lasalle.mdpa.lgarci.propertycross.googleapi.LocationManager;
+
+import static com.lasalle.mdpa.lgarci.propertycross.Argument.TEXT_SEARCH;
+import static com.lasalle.mdpa.lgarci.propertycross.Argument.TYPE_SEARCH;
+import static com.lasalle.mdpa.lgarci.propertycross.viewmodel.Property.PROPERTY_TYPE_RENT;
+import static com.lasalle.mdpa.lgarci.propertycross.viewmodel.Property.PROPERTY_TYPE_SELL;
 
 /**
  * Created by FurruPi on 1/4/17.
@@ -41,14 +48,15 @@ public class InitActivityManager extends LocationManager{
      */
     public InitActivityManager(InitActivity initActivity){
         this.mActivity = initActivity;
+        this.mActivity.setContentView(R.layout.activity_init);
         mGoogleApiClient = getDefaultGoogleConnection(mActivity);
+        initViewLayout();
     }
 
     /**
      * Initialize Layout
      */
     public void initViewLayout(){
-        mActivity.setContentView(R.layout.activity_init);
         mActivity.getSupportActionBar().hide();
         inflateAllViews();
         addListeners();
@@ -61,8 +69,9 @@ public class InitActivityManager extends LocationManager{
         searchButton = (Button) mActivity.findViewById(R.id.button_search);
         rentButton = (Button) mActivity.findViewById(R.id.button_rent);
         sellButton = (Button) mActivity.findViewById(R.id.button_sell);
-        locationButton = (ImageButton) mActivity.findViewById(R.id.button_location);
+        locationButton = (ImageButton) mActivity.findViewById(R.id.imageButton_location);
         searchEditText = (TextInputEditText) mActivity.findViewById(R.id.editText_search);
+        searchEditText.clearFocus();
     }
 
     /**
@@ -75,7 +84,7 @@ public class InitActivityManager extends LocationManager{
                 if (searchEditText.getText() != null && !searchEditText.getText().toString().isEmpty()) {
                     toMainActivity();
                 } else {
-                    //searchEditText.setError(mActivity.getString(R.string.search_error_message));
+                    searchEditText.setError(mActivity.getString(R.string.search_error_message));
                 }
             }
         });
@@ -83,14 +92,14 @@ public class InitActivityManager extends LocationManager{
         sellButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               // searchTypeSelected = Property.PROPERTY_TYPE_SELL;
+                searchTypeSelected = PROPERTY_TYPE_SELL;
             }
         });
 
         rentButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               // searchTypeSelected = Property.PROPERTY_TYPE_RENT;
+                searchTypeSelected = PROPERTY_TYPE_RENT;
             }
         });
 
@@ -153,10 +162,9 @@ public class InitActivityManager extends LocationManager{
      * Navigates To MainActivity
      */
     private void toMainActivity() {
-        /*Intent intent = new Intent(mActivity, MainActivity.class);
-        intent.putExtra(TYPE_SEARCH, searchTypeSelected != null ? searchTypeSelected : Property.PROPERTY_TYPE_SELL);
+        Intent intent = new Intent(mActivity, MainActivity.class);
+        intent.putExtra(TYPE_SEARCH, searchTypeSelected != null ? searchTypeSelected : PROPERTY_TYPE_SELL);
         intent.putExtra(TEXT_SEARCH, searchEditText.getText().toString());
         mActivity.startActivity(intent);
-        mActivity.finish();*/
     }
 }

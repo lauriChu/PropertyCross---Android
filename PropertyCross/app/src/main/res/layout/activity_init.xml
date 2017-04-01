@@ -57,8 +57,8 @@
                     android:layout_weight="1" />
 
                 <ImageButton
-                    style="@style/LocationButton"
-                    android:id="@+id/button_location"
+                    style="@style/LocationImageButton"
+                    android:id="@+id/imageButton_location"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"

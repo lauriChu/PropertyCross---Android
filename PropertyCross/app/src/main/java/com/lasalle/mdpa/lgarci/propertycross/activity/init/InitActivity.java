@@ -12,12 +12,14 @@ import com.lasalle.mdpa.lgarci.propertycross.R;
 public class InitActivity extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener{
 
+    //TODO: Revisar la connexión con google maps para recoger la localización
+    //TODO: Acabar de maquetar los botones
+
     private InitActivityManager initActivityManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_init);
         initActivityManager = new InitActivityManager(this);
     }
 

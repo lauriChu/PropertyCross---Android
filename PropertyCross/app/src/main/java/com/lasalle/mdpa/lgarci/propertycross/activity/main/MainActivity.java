@@ -1,47 +1,53 @@
 package com.lasalle.mdpa.lgarci.propertycross.activity.main;
 
+import android.app.Activity;
+import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.support.v4.app.ActivityOptionsCompat;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.lasalle.mdpa.lgarci.propertycross.R;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements OnMainReceiveEvent{
 
-    private TextView mTextMessage;
-
-    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
-            = new BottomNavigationView.OnNavigationItemSelectedListener() {
-
-        @Override
-        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-            switch (item.getItemId()) {
-                case R.id.navigation_home:
-                    mTextMessage.setText(R.string.bottom_home);
-                    return true;
-                case R.id.navigation_dashboard:
-                    mTextMessage.setText(R.string.bottom_favourites);
-                    return true;
-                case R.id.navigation_notifications:
-                    mTextMessage.setText(R.string.bottom_user);
-                    return true;
-            }
-            return false;
-        }
-
-    };
+    private MainActivityManager mainActivityManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        mainActivityManager = new MainActivityManager(this);
 
-        mTextMessage = (TextView) findViewById(R.id.message);
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
-        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
 
+
+    @Override
+    public void onNavigateToProperty(int propertyId) {
+
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        mainActivityManager.onOrientationChange(newConfig.orientation);
+    }
+
+    @Override
+    public void onBackPressed() {
+        /*Intent data = new Intent();
+        Bundle bundle = ActivityOptionsCompat.makeCustomAnimation(this, android.R.anim.fade_in, android.R.anim.fade_out).toBundle();
+        data.putExtra("a", bundle);
+        setResult(123, data);*/
+        // add data to Intent
+
+        super.onBackPressed();
+        overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+    }
 }

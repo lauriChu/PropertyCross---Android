@@ -1,10 +1,17 @@
 <resources>
     <string name="app_name">PropertyCross</string>
+
     <string name="bottom_home">Home</string>
     <string name="bottom_favourites">Favourites</string>
     <string name="bottom_user">User</string>
+
     <string name="sell">Sell</string>
     <string name="rent">Rent</string>
+
     <string name="placeholder_search">Adress, City, Postal Code...</string>
+
     <string name="search">Search</string>
+
+    <string name="search_error_message">Insert data in the search field correctly</string>
+
 </resources>

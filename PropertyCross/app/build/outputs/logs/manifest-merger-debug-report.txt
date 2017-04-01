@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:2:1-30:12
+ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:3:5-52
 		INJECTED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml
@@ -13,8 +13,16 @@ ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app
 	android:versionCode
 		INJECTED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:5:5-28:19
+ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:8:5-32:19
 MERGED from [com.android.support:design:25.3.1] /Users/FurruPi/.android/build-cache/b05be0453923e7c787e48080e90c4b7fae893672/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.1] /Users/FurruPi/.android/build-cache/c28573d1175129f82772781ddadc834e8693b64e/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/FurruPi/.android/build-cache/224ebd981cf7d1b42eab0f2edcab44028e84515e/output/AndroidManifest.xml:9:5-20
@@ -71,37 +79,47 @@ MERGED from [com.android.support:palette-v7:25.3.1] /Users/FurruPi/.android/buil
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/FurruPi/.android/build-cache/b2bad33694b5409f252719f58130d62c65f0a9ea/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] /Users/FurruPi/.android/build-cache/d4a343692a4ff2d3794754fa221ac7b650dbb1bd/output/AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:11:9-41
 	android:supportsRtl
-		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:13:9-35
 	android:roundIcon
-		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:12:9-54
 	android:allowBackup
-		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:9:9-35
 	android:icon
-		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:10:9-43
 	android:theme
-		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:11:9-40
-activity#com.lasalle.mdpa.lgarci.propertycross.activity.main.MainActivity
-ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:12:9-20:20
-	android:label
-		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:14:13-45
-	android:name
-		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:13:13-55
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:15:13-19:29
-action#android.intent.action.MAIN
-ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:16:17-69
-	android:name
-		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:16:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:18:17-77
-	android:name
-		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:14:9-40
 activity#com.lasalle.mdpa.lgarci.propertycross.activity.init.InitActivity
-ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:21:9-27:20
+ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:21:19-61
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:15:19-61
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:19:27-74
+activity#com.lasalle.mdpa.lgarci.propertycross.activity.main.MainActivity
+ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:22:9-30:20
+	android:label
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:24:13-45
+	android:name
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:23:13-55
+intent-filter#android.intent.category.LAUNCHER
+ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:25:13-29:29
+actiRon
+ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:26:17-70
+	android:name
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:26:26-67
+activity#com.lasalle.mdpa.lgarci.propertycross.activity.search.SearchActivity
+ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:31:9-77
+	android:name
+		ADDED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml:31:19-65
 uses-sdk
 INJECTED from /Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.1] /Users/FurruPi/.android/build-cache/b05be0453923e7c787e48080e90c4b7fae893672/output/AndroidManifest.xml:21:5-23:62

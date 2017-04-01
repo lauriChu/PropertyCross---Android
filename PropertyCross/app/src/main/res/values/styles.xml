@@ -8,11 +8,25 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="LocationButton">
+    <style name="LocationImageButton">
         <item name="android:paddingTop">5dp</item>
         <item name="android:paddingLeft">15dp</item>
         <item name="android:paddingRight">15dp</item>
         <item name="android:src">@drawable/ic_location</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="FilterImageButton">
+        <item name="android:src">@drawable/ic_filter</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="FilterFilledImageButton" parent="FilterImageButton">
+        <item name="android:src">@drawable/ic_filter_filled</item>
+    </style>
+
+    <style name="SortImageButton">
+        <item name="android:src">@drawable/ic_sort</item>
         <item name="android:background">@android:color/transparent</item>
     </style>
 
