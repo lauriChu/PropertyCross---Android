@@ -15,6 +15,7 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.lasalle.mdpa.lgarci.propertycross.R;
+import com.lasalle.mdpa.lgarci.propertycross.activity.search.SearchActivity;
 
 public class MainActivity extends AppCompatActivity implements OnMainReceiveEvent{
 
@@ -29,8 +30,15 @@ public class MainActivity extends AppCompatActivity implements OnMainReceiveEven
 
 
     @Override
-    public void onNavigateToProperty(int propertyId) {
+    public void onNavigateToPropertyFragment(int propertyId) {
 
+    }
+
+    @Override
+    public void onNavigateToSearchActivity() {
+        Intent intent = new Intent(this, SearchActivity.class);
+        Bundle bundle = ActivityOptionsCompat.makeCustomAnimation(this, android.R.anim.fade_in, android.R.anim.fade_out).toBundle();
+        startActivityForResult(intent, 123, bundle);
     }
 
     @Override

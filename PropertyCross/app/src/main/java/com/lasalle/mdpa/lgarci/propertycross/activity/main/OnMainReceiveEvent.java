@@ -5,5 +5,6 @@ package com.lasalle.mdpa.lgarci.propertycross.activity.main;
  */
 
 public interface OnMainReceiveEvent {
-    public void onNavigateToProperty(int propertyId);
+    public void onNavigateToPropertyFragment(int propertyId);
+    public void onNavigateToSearchActivity();
 }

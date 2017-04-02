@@ -30,4 +30,12 @@
         <item name="android:background">@android:color/transparent</item>
     </style>
 
+    <style name="FavouriteCheckBoxButton">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:buttonTint">@color/favourite</item>
+        <item name="android:button">@drawable/checkbox_favourite</item>
+    </style>
+
+
+
 </resources>

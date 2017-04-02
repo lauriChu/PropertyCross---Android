@@ -36,10 +36,6 @@
         "source": "/Users/FurruPi/.android/build-cache/5b8ca0dbb246fa4b8d27e3a4954379e98ad346fb/output/res/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml"
     },
     {
-        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/drawable/ic_notifications_black_24dp.xml",
-        "source": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/res/drawable/ic_notifications_black_24dp.xml"
-    },
-    {
         "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
         "source": "/Users/FurruPi/.android/build-cache/c91706a28db7c94d662e0ad9b027c9ed312d0006/output/res/drawable/abc_ic_go_search_api_material.xml"
     },
@@ -78,6 +74,10 @@
     {
         "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/drawable/mr_button_light.xml",
         "source": "/Users/FurruPi/.android/build-cache/38b7c7016e54cade5d12a7d2b18b754323a1aaef/output/res/drawable/mr_button_light.xml"
+    },
+    {
+        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/drawable/checkbox_favourite.xml",
+        "source": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/res/drawable/checkbox_favourite.xml"
     },
     {
         "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_dark.xml",
@@ -462,10 +462,6 @@
     {
         "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/drawable/mr_group_expand.xml",
         "source": "/Users/FurruPi/.android/build-cache/38b7c7016e54cade5d12a7d2b18b754323a1aaef/output/res/drawable/mr_group_expand.xml"
-    },
-    {
-        "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/drawable/ic_dashboard_black_24dp.xml",
-        "source": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/src/main/res/drawable/ic_dashboard_black_24dp.xml"
     },
     {
         "merged": "/Users/FurruPi/Documents/MDPA/Android/PropertyCross/PropertyCross/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",

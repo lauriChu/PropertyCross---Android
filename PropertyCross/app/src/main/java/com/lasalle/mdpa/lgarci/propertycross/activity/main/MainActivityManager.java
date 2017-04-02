@@ -1,6 +1,5 @@
 package com.lasalle.mdpa.lgarci.propertycross.activity.main;
 
-import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -16,7 +15,7 @@ import android.view.MenuItem;
 import com.lasalle.mdpa.lgarci.propertycross.R;
 import com.lasalle.mdpa.lgarci.propertycross.activity.main.fragment.FavouriteFragment;
 import com.lasalle.mdpa.lgarci.propertycross.activity.main.fragment.MapFragment;
-import com.lasalle.mdpa.lgarci.propertycross.activity.main.fragment.SearchFragment;
+import com.lasalle.mdpa.lgarci.propertycross.activity.main.fragment.search.SearchFragment;
 import com.lasalle.mdpa.lgarci.propertycross.activity.main.fragment.UserFragment;
 import com.lasalle.mdpa.lgarci.propertycross.activity.search.SearchActivity;
 
@@ -113,6 +112,7 @@ public class MainActivityManager {
      */
     private void setFragment(Fragment fragment, String tag){
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        //fragmentTransaction.setCustomAnimations(android.R.anim.fade_in, android.R.anim.fade_out);
         //fragmentTransaction.add(R.id.content, fragment, tag);
         fragmentTransaction.replace(R.id.content, fragment);
         fragmentTransaction.commit();
